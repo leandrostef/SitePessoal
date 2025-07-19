@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Site Pessoal</title>
+
+  <!-- Font Awesome e Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Seu Nome</h1>
+      <nav>
+        <a href="#apresentacao">Apresentação</a>
+        <a href="#curriculo">Currículo</a>
+         <a href="projetos.html">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a href="#redes">Redes</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- APRESENTAÇÃO -->
+  <section id="apresentacao" class="section dark">
+    <div class="container apresentacao-container">
+      <div class="foto-wrapper">
+        <img src="WhatsApp Image 2025-07-18 at 8.56.27 PM.jpeg" alt="Sua Foto" class="foto-perfil" />
+      </div>
+      <div class="texto-apresentacao">
+        <h2>Olá! Eu sou [Seu Nome]</h2>
+        <p class="descricao">Estudante de Ciência da Computação apaixonada por desenvolvimento web.</p>
+        <div class="habilidades">
+          <div class="habilidade"><i class="fab fa-html5"></i> HTML5</div>
+          <div class="habilidade"><i class="fab fa-css3-alt"></i> CSS3</div>
+          <div class="habilidade"><i class="fab fa-js"></i> JavaScript</div>
+          <div class="habilidade"><i class="fab fa-git-alt"></i> Git</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRÍCULO -->
+  <section id="curriculo" class="section">
+    <div class="container">
+      <h2>Currículo</h2>
+      <h3>Formação Acadêmica</h3>
+      <ul>
+        <li>Ciência da Computação - IFSC (2022 - Atual)</li>
+        <li>Curso de Front-End (Alura - 2024)</li>
+      </ul>
+
+      <h3>Experiência Profissional</h3>
+      <ul>
+        <li>Estágio em Desenvolvimento Web - Empresa X (2023)</li>
+      </ul>
+
+      <a href="curriculo.pdf" class="botao" download>Download Currículo PDF</a>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section dark">
+    <div class="container">
+      <h2>Contato</h2>
+      <form class="form-contato">
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <textarea rows="4" placeholder="Sua mensagem..."></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- REDES SOCIAIS -->
+  <section id="redes" class="section dark">
+    <div class="container">
+      <h2>Minhas Redes Sociais</h2>
+      <div class="redes-sociais">
+        <a href="https://www.instagram.com/_leandro.stef/" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/le-steffen-45b19b34a/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/leandrostef" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
