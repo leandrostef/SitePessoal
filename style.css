@@ -114,22 +114,7 @@ a {
   border-radius: 10px;
 }
 
-/* Botão */
-.botao {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 10px 20px;
-  background-color: #00bcd4;
-  color: #000;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: 0.3s;
-}
 
-.botao:hover {
-  transform: scale(1.05);
-  text-decoration: underline;
-}
 
 /* FORMULÁRIO */
 .form-contato {
@@ -246,4 +231,107 @@ a {
   background-color: #00bcd4;
   margin: 10px 0 0 0;
   border-radius: 5px;
+}
+/* Título Currículo */
+.titulo-curriculo {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00bcd4;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 3rem;
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.3);
+}
+
+/* Sub-seções (Formação e Experiência) */
+.subsecao {
+  margin-bottom: 2.5rem;
+}
+
+.subsecao h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+  .botao {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 2px solid #00bcd4;
+  color: #00bcd4;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #00bcd4;
+  color: #000;
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+/* Bloco discreto com borda suave */
+.bloco-cv {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,188,212,0.05);
+}
+.imagem-projeto {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.1);
+}
+
+.card h3 {
+  margin: 0.5rem 0 0.3rem;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.card p {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.email-contato {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.email-contato i {
+  margin-right: 8px;
+  color: #00bcd4;
+  font-size: 1.2rem;
+}
+
+.email-contato a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.email-contato a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.subsecao ul li {
+  margin-bottom: 1.5rem; 
+  line-height: 1.6;      
+}
+
+.certificado {
+  margin-top: 0.5rem; 
 }

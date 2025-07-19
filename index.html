@@ -9,19 +9,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+
+  
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="container nav-container">
-      <h1 class="logo">Seu Nome</h1>
+      <h1 class="logo">Leandro Steffen do Amaral</h1>
       <nav>
         <a href="#apresentacao">Apresentação</a>
         <a href="#curriculo">Currículo</a>
          <a href="projetos.html">Projetos</a>
         <a href="#contato">Contato</a>
-        <a href="#redes">Redes</a>
+        <a href="#redes">Social</a>
       </nav>
     </div>
   </header>
@@ -30,39 +34,72 @@
   <section id="apresentacao" class="section dark">
     <div class="container apresentacao-container">
       <div class="foto-wrapper">
-        <img src="WhatsApp Image 2025-07-18 at 8.56.27 PM.jpeg" alt="Sua Foto" class="foto-perfil" />
+        <img src="img/WhatsApp Image 2025-07-18 at 8.56.27 PM.jpeg" alt="Sua Foto" class="foto-perfil" />
       </div>
       <div class="texto-apresentacao">
-        <h2>Olá! Eu sou [Seu Nome]</h2>
-        <p class="descricao">Estudante de Ciência da Computação apaixonada por desenvolvimento web.</p>
+        <h2>Bem vindo! Site pessoal de: Leandro S.</h2>
+        <p class="descricao">Estudante de Ciência da Computação na Instituição Federal de Santa Catarina. Buscando expandir conhecimento sobre a área da tecnologia!</p>
         <div class="habilidades">
           <div class="habilidade"><i class="fab fa-html5"></i> HTML5</div>
           <div class="habilidade"><i class="fab fa-css3-alt"></i> CSS3</div>
           <div class="habilidade"><i class="fab fa-js"></i> JavaScript</div>
           <div class="habilidade"><i class="fab fa-git-alt"></i> Git</div>
         </div>
+     
       </div>
     </div>
   </section>
 
   <!-- CURRÍCULO -->
-  <section id="curriculo" class="section">
-    <div class="container">
-      <h2>Currículo</h2>
+<section id="curriculo" class="section">
+  <div class="container">
+    <h2 class="titulo-curriculo">Currículo</h2>
+
+    <!-- BLOCO 1 - FORMAÇÃO -->
+    <div class="subsecao bloco-cv">
       <h3>Formação Acadêmica</h3>
       <ul>
-        <li>Ciência da Computação - IFSC (2022 - Atual)</li>
-        <li>Curso de Front-End (Alura - 2024)</li>
-      </ul>
+  <li>
+    Ciência da Computação - IFSC (1º fase)
+  </li>
 
+  <li>
+    Ensino Médio - COC Lages (Término 2024)
+    <div class="certificado">
+      <a href="PDF's/ConclusãoMédio .pdf" class="botao" download>Ver Histórico Escolar</a>
+    </div>
+  </li>
+
+  <li>
+    Curso de Inglês - CCAA (Nível avançado - 11 níveis)
+  </li>
+
+  <li>
+    Intercâmbio Inglaterra / Embassy Summer - 3 semanas 
+    <div class="certificado">
+      <a href="img/certificado.jpeg" class="botao" download>Certificado</a>
+    </div>
+  </li>
+</ul>
+
+    </div>
+
+
+
+    <!-- BLOCO 2 - EXPERIÊNCIA -->
+    <div class="subsecao bloco-cv">
       <h3>Experiência Profissional</h3>
       <ul>
-        <li>Estágio em Desenvolvimento Web - Empresa X (2023)</li>
+        <li>
+          Recepcionista na <strong>Escola TopWay</strong> —
+          <a href="https://www.google.com/maps/place/TopWay+English+School/@-27.8143414,-50.3260917,17z/data=!3m1!4b1!4m6!3m5!1s0x94e01f37210414b7:0xede18b32a7646b03!8m2!3d-27.8143462!4d-50.3235168!16s%2Fg%2F11h05vs1_?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
+             target="_blank" style="color: #00bcd4;">Ver Localização</a> (Atualmente) <br />
+          <a href="PDF's/currículonovo.pdf" class="botao" download>Download Currículo PDF</a>
+        </li>
       </ul>
-
-      <a href="curriculo.pdf" class="botao" download>Download Currículo PDF</a>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- CONTATO -->
   <section id="contato" class="section dark">
@@ -92,12 +129,18 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
+
+         <div class="email-contato">
+  <p><i class="bi bi-envelope"></i></i> <strong>E-mail:</strong> 
+    <a>lndrsteffen@gmail.com</a>
+  </p>
+</div>
     </div>
   </section>
 
   <!-- RODAPÉ -->
   <footer class="footer">
-    <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Leandro. Todos os direitos reservados.</p>
   </footer>
 
 </body>
